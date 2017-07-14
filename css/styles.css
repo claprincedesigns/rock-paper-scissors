@@ -1,0 +1,25 @@
+body {
+    background-color: aqua;
+    font-family: monospace;
+    text-align: center;
+    font-size: 1.6rem;
+    position: relative;
+}
+
+img {
+    padding: 20px;
+}
+
+img:hover {
+    transform: scale(1.3);
+    transform: all 1.2s;
+}
+
+#container {
+    position: absolute;
+    top: 250px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-height: auto;
+
+}
